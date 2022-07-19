@@ -1,0 +1,373 @@
+/* container */
+.container{
+    width: 1146px;
+    margin: auto;
+    border: 2px solid ;
+/* container */
+}
+/* nav bar starts */
+.flex-box{
+    display: flex;
+    justify-content: space-between;  
+    background-color: white; 
+}
+ul,li{
+    display: flex;
+    margin:7px;
+    font-size:120%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding-top: 20px;
+    
+}
+.lists ul a{
+    color: gray;
+}
+    
+.button1{
+    color: white;
+    background-color:red;
+    border-radius: 7px;
+    line-height:px;
+    border:none;
+    margin: 50px;
+    width: 100px;
+    height: 50px;
+}
+.logo{
+    font-size: 200%;
+}
+a{
+    text-decoration: none;
+}
+/* nav bar ends */
+
+/* advertisement start */
+.add{
+    display:flex;
+    height: 595px;
+    background-color:#ebf1f5;
+    margin-top: 20px;
+}
+.banner{
+    width: 678px;
+    border: 2px solid;
+    margin: 20px;
+    font-size: 200%;
+    text-align: center;
+    padding-top: 50px;
+}
+.content{
+    text-align: center;
+    padding-top:49px ;
+    font-size: 200%;
+    border: 2px solid;
+    margin: 20px;
+}
+/* advertisment ends */
+
+/* about starts */
+
+.learnmore{
+    display: flex;
+    height: 566px;
+    margin-top: 20px;
+}
+.img{
+    width: 767px;
+    border: 2px solid;
+    margin-right: 20px;
+}
+.special{
+    width: 495px;
+    border:2px solid;
+    height: 363px;
+
+}
+.box{
+    border:2px solid black;
+
+}
+/* about ends */
+
+/* info starts */
+.info{
+    width:1315px;
+    height: 560px;
+    display: flex;
+}
+.box1{
+    width:350px;
+    border: 2px solid;
+    margin: 10px;
+}
+.box2{
+    width: 230px;
+    border: 2px solid;
+    margin: 10px;
+}
+.box3{
+    width: 230px;
+    border:2px solid;
+    margin: 10px;
+}
+.box4{
+    width: 230px;
+    border: 2px solid;
+    margin:10px;
+}
+/* info ends */
+
+/* work about starts */
+.working{
+    width: 2023px;
+    height: 357px;
+}
+.working ul{
+    text-align: center;
+}
+/* work about ends */
+
+/* menu starts */
+.text{
+    text-align: center;
+}
+.overall{
+    flex-wrap: wrap;
+}
+.pictures{
+    display: flex;
+    height: 930px;
+    width: 1215px;
+    flex-wrap: wrap;
+
+    
+}
+.pic1{
+    width: 374px;
+    border:2px solid;
+    margin: 2px;
+}
+.pic2{
+    width: 374px; 
+    border:2px solid;
+    margin: 2px;
+}
+.pic3{
+    width: 374px; 
+    border:2px solid;
+    margin: 2px;
+}
+.pic4{
+    width: 374px; 
+    border:2px solid;
+    margin: 2px;
+}
+.pic5{
+    width: 374px; 
+    border:2px solid;
+    margin: 2px;
+}
+.pic6{
+    width: 374px; 
+     border:2px solid;
+     margin: 2px;
+}
+/* menu ends */
+
+/* review starts */
+
+.aboutus{
+    height: 579px;
+    border: 2px solid;
+
+}
+.para{
+    text-align: center;
+    font-size:250%;
+    padding: 50px;
+}
+/* review ends */
+
+/* events starts */
+
+.restaurent{
+    text-align: center;
+    font-size: 200%;
+    padding: 70px;
+}
+.events{
+    height: 600px;
+    display: flex;
+}
+.event1{
+    width: 670px;
+    border:2px solid;
+    text-align: center;
+    padding: 50px;
+}
+.event2{
+    width: 600px;
+    border: 2px solid;
+    text-align: center;
+    padding: 50px;
+}
+.event3{
+    width: 600px;
+    border:2px solid;
+    text-align: center;
+    padding: 50px;
+}
+/* events ends */
+
+/* chefs starts */
+
+.ourchefs{
+    height: 774px;
+}
+.chefsabout{
+    font-size: 200%;
+    text-align: center;
+    padding: 50px;
+}
+.chefs{
+    display: flex;
+}
+.chef1{
+    width: 420px;
+    border: 2px solid ;
+    height: 608px;
+    margin: 3px;
+}
+.chef2{
+    width: 420px;
+    border: 2px solid ;
+    height: 608px;
+    margin: 3px;
+}
+.chef3{
+    width: 420px;
+    border: 2px solid ;
+    height: 608px;
+    margin: 3px;
+}
+/* chefs ends */
+
+/* booking table starts */
+
+.table{
+    height: 800px;
+}
+.book{
+    font-size: 200%;
+    text-align: center;
+    padding: 70px;
+}
+.registerpage{
+    display: flex;
+    padding-top: 50px;
+}
+.photo{
+    width: 434px;
+    border: 2px solid;
+    height: 500px;
+}
+.register{
+    width: 785px;
+    height: 265px;
+    border: 2px solid;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+/* booking table ends */
+
+/* gallary starts */
+
+.gallarybox{
+    height: 523px;
+
+}
+.ourgallary{
+    font-size: 200%;
+    text-align: center;
+    padding: 70px;
+}
+.gallarys{
+    display: flex;
+    height: 220px;
+
+}
+.photo1{
+    width: 293px;
+    border: 2px solid;
+    margin-left: 10px;
+}
+.photo2{
+    width: 293px;
+    border: 2px solid;
+    margin-left: 10px;
+}
+.photo3{
+    width: 293px;
+    border: 2px solid;
+    margin-left: 10px;
+}
+.photo4{
+    width: 293px;
+    border: 2px solid;
+    margin-left: 10px;
+}
+
+/* gallary ends */
+
+/* contact starts */
+.contactus{
+    height:1095px;   
+}
+.map{
+    width: 1121px;
+    font-size: 200%;
+    text-align: center;
+    padding-top: 50px;
+    height: 349px;
+    border: 2px solid;
+}
+.address{
+    height: 286px;
+    width: 1116px;
+    border: 2px solid;
+    margin-top: 50px;
+}
+.email{
+    height: 272px;
+    width: 1025px;
+    border: 2px solid;
+    margin-top: 50px;
+}
+/* contact ends */
+
+/* button starts */
+.button2{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+   
+}
+/* button ends */
+
+/* footer starts */
+.footer{
+    width:1356px ;
+    height: 172px;
+    border: 2px solid;
+    margin-top: 50px;
+}
+/* footer ends */
+
+/* legal starts */
+.legal{
+    width: 1361px; ;
+    height: 121px; ;
+    border: 2px solid;
+}
+/* legal ends */
