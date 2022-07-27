@@ -1,0 +1,36 @@
+.container{
+    width: 1140px;
+    height: auto;
+    margin: auto;
+    border: solid 2px black;
+}
+.connect{
+    display: flex;
+    height: 40px;
+    border-bottom: 1px solid;
+}
+.phone{
+    padding-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* nav starts */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.mamba{
+    font-size: 200%;
+    color: #0D47A1;
+    font-family: 'Courier New', Courier, monospace;
+}
+.lists{
+    display: flex;
+}
+ul li{
+    display: inline-block;
+    padding: 20px;
+}
+/* nav ends */
