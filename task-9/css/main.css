@@ -7,14 +7,27 @@
 .connect{
     display: flex;
     height: 40px;
-    border-bottom: 1px solid;
+    
 }
 .connect a{
     text-decoration: none;
     color: black;
+    padding-right: 30px;
 }
-.phone{
-    padding-left: 30px;
+.overall-connect{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+}
+.social-media{
+    margin-left: 150px;
+
+}
+.social-media i{
+    padding: 10px;
+}
+.social-media i:hover{
+    color: #0288D1;
 }
 .lists ul li a{
     text-decoration: none;
