@@ -73,6 +73,7 @@ ul li{
 .content{
     width: 100%;;
     height: 465px;
+    padding-top: 100px;
 }
 .content h1{
     font-size: 300%;
@@ -91,7 +92,7 @@ ul li{
 
 }
 .button{
-    text-align: center;
+    
 }
 
 /* banner ends */
@@ -347,7 +348,11 @@ ul li{
 }
 .text p{
     font-family: sans-serif;
+    color: black;
     
+}
+.text h1{
+    color: black;
 }
 .service .icon{
     color: #0288D1;
@@ -381,3 +386,278 @@ ul li{
     cursor: pointer;
 }
 /* services ends */
+
+
+
+/* our potfolio starts */
+
+
+.potfolio-heading h1{
+   font-size: 250%;
+    color:  #607D8B;
+    font-family: sans-serif;
+    text-align: center;
+}
+.potfolio-heading p{
+    font-family: sans-serif;
+    text-align: center;
+}
+.potfolio-buttons{
+    text-align: center;
+}
+.potfolio-buttons button{
+    background-color: white;
+    color: black;
+    width: 80px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.potfolio-buttons button:hover{
+    color: white;
+    background-color: #0288D1;
+}
+
+/* our potfolio  ends */
+.potfolio-overall{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.potfolio-box1,.potfolio-box3,.potfolio-box2,.potfolio-box5,.potfolio-box6,.potfolio-box4,.potfolio-box7,.potfolio-box8,.potfolio-box9{
+    width: 33.3%;
+    height: 310px;
+    overflow: hidden;
+}
+.potfolio-box1 img{
+    width: 100%;
+    height: 310px;
+    position: relative;
+}
+.potfolio-box2 img{
+    width: 100%;
+    height: 310px;
+    position: relative;
+}
+.potfolio-box3 img{
+    width: 100%;
+    height: 310px;
+    position: relative;
+}
+.potfolio-box4 img{
+    width: 100%;
+    height: 310px;
+    position: relative;
+}
+.potfolio-box5 img{
+    width: 100%;
+    height: 310px;
+    position: relative;
+}
+.potfolio-box6 img{
+    width: 100%;
+    height: 310px;
+    position: relative;
+}
+.potfolio-box7 img{
+    width: 100%;
+    height: 310px;
+    position: relative;
+}
+.potfolio-box8 img{
+    width: 100%;
+    height: 310px;
+    position: relative;
+}
+.potfolio-box9 img{
+    width: 100%;
+    height: 310px;
+    position: relative;
+}    
+.box1-text{
+text-align: center;
+padding-top: 50px;
+transform:translateY(-20px);
+transition: .5s;
+
+}
+.potfolio-box1:hover .simeon{
+    transform: translateY(0px);
+    transition: .5s;
+} 
+.potfolio-box2:hover .simeon{
+    transform: translateY(0px);
+    transition: .5s;
+} 
+.potfolio-box3:hover .simeon{
+    transform: translateY(0px);
+    transition: .5s;
+} 
+
+.potfolio-box4:hover .simeon{
+    transform: translateY(0px);
+    transition: .5s;
+} 
+
+.potfolio-box5:hover .simeon{
+    transform: translateY(0px);
+    transition: .5s;
+} 
+
+.potfolio-box6:hover .simeon{
+    transform: translateY(0px);
+    transition: .5s;
+} 
+.potfolio-box7:hover .simeon{
+    transform: translateY(0px);
+    transition: .5s;
+} 
+.potfolio-box8:hover .simeon{
+    transform: translateY(0px);
+    transition: .5s;
+} 
+.potfolio-box9:hover .simeon{
+    transform: translateY(0px);
+    transition: .5s;
+} 
+.box1-shadow{
+    background-color: rgba(0,0,0,0.30);
+    width: 33.3%;
+    height: 310px;
+    position: absolute;
+    top: 0;
+    color: white;
+    opacity: 0;
+    transition: .5s;
+}
+.box1-icon{
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+}
+.box1-icon a{
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: white;
+    margin: 10px;
+    color: #0288D1;
+}
+.box1-icon a:hover{
+    color: white;
+    background-color: #0288D1;
+} 
+.potfolio-box1:hover .box1-shadow{
+    opacity: 1;
+    transition: .5s;
+
+}
+.potfolio-box2:hover .box1-shadow{
+    opacity: 1;
+    transition: .5s;
+
+}
+.potfolio-box3:hover .box1-shadow{
+    opacity: 1;
+    transition: .5s;
+
+}
+.potfolio-box4:hover img{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.potfolio-box5:hover img{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.potfolio-box6:hover img{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.potfolio-box7:hover img{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.potfolio-box8:hover img{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.potfolio-box9:hover img{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+
+/* potfolio photo ends */
+
+
+/* .sakthi{ 
+    width: 33.3%;
+    height: 310px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+.sakthi{
+    margin-left: 20px;
+}
+.potfolio-box2 img{
+    width: 100%;
+    height: 310px;
+    /* padding-left: 10p 
+    display: block;
+    
+}
+.potfolio-box2 .shadow{
+    background-color: rgba(0,0,0,0.30);
+    width: 33.33%;
+    height: 310px;
+    top: 0;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.shadow .box-text{
+    transform: translateY(-30px);
+    transition: 0.5s;
+}
+.box-text{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.box-icon{
+    display: flex;
+    justify-content: center;
+}
+.box-icon a{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 10px;
+    line-height: 40px;
+    background-color: white;
+    color: #0288D1;
+
+}
+.potfolio-box2:hover .shadow{
+    opacity: 1;
+    transition: .5s;
+}
+.box-icon a:hover{
+    color: white;
+    background-color: #0288D1;
+}
+.potfolio-box2:hover img{
+    transform: scale(1.1);
+}
+.potfolio-box2:hover .box-text{
+    transform: translateY(0px);
+    transition: .5s;
+}
+*/
+
+
