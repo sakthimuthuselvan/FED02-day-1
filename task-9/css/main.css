@@ -1,4 +1,5 @@
-  
+
+
 .container{
     width: 1140px;
     margin: auto;
@@ -43,7 +44,7 @@
     color:#607D8B;
 }
 .lists ul li a:hover{
-    color:#0288D1;
+    color:#22a8f0;
 }
 /* nav starts */
 .navigation{
@@ -61,7 +62,7 @@
 ul li{
     display: inline-block;
     padding: 20px;
-    color: #455A64;
+    color: #5C768D;
 }
 /* nav ends */
 
@@ -212,7 +213,7 @@ ul li{
 .boxes{
     width: 100%;
     height: auto;
-    padding-top: 20px;
+    padding-top: 70px;
 }
 .boxes h1{
     color: #7fcaf2;
@@ -266,6 +267,7 @@ ul li{
     border: 1px solid rgb(158, 158, 158);
     border-left: none;
     border-top: none;
+    border-bottom: none;
     padding-left: 20px;
     padding-bottom: 30px;
 }
@@ -274,14 +276,15 @@ ul li{
     padding-left: 20px;
     border: 1px solid rgb(158, 158, 158);
     border-left: none;
+    border-bottom: none;
     border-top: none;
     padding-bottom: 30px;
 }
 .del-6{
     width: 33.3%;
     border-right:none ;
+    border-bottom: none;
     padding-left: 20px;
-    border-bottom: 1px solid rgb(158, 158, 158);
     padding-bottom: 30px;
 }
 
@@ -292,7 +295,7 @@ ul li{
 .acheviements{
     background-color: #ECEFF1;
     height: 270px;
-    width: 100%;
+    /* width: 100%; */
     padding-top: 20px;
 }
 .overall-box{
@@ -300,6 +303,7 @@ ul li{
     height: 160px;
     /* border: 1px solid red; */
     display: flex;
+    margin-top: 35px;
     
 }
 .achevie-box{
@@ -311,6 +315,7 @@ ul li{
     background-color: white;
     box-shadow: 0 0 025px gray;
     margin-top: 30px;
+    
 }
 .achevie-box h1{
     color: #0D47A1;
@@ -330,7 +335,6 @@ ul li{
 .overall-con{
     width: 100%;
     height: 670px;
-    
     /* border: 1px solid red; */
 }
 .service-head{
@@ -413,7 +417,9 @@ ul li{
 
 /* our potfolio starts */
 
-
+.potfolio{
+    box-sizing: border-box;
+}
 .potfolio-heading h1{
    font-size: 250%;
     color:  #607D8B;
@@ -444,74 +450,80 @@ ul li{
 /* our potfolio  ends */
 
 /* potfolio photos starts*/
-.potfolio-overall{
+.potfolio-photos-sec{
+    padding-bottom: 50px;
+    background-color: rgb(245,249,252);
+}
+.potfloio-overall{
     width: 100%;
     height: auto;
-    /* border: 1px solid;*/
-    display: flex;
-    flex-wrap: wrap;
     box-sizing: border-box;
-}
+    display: flex;
+}  
 .potfolio-box{
     width: 33.33%;
-    height: 315px;
-    /* border: 1px solid red; */
+    /* border: 1px solid; */
+    margin: 10px;
+    display: block;
     overflow: hidden;
     position: relative;
-    padding: px;
 }
 .potfolio-box img{
     width: 100%;
-    height: 315px;
-    display: block;
+    height:100%;
+   
 }
-.potfolio-text{
+.potfolio-shadow{
     background-color: rgba(0,0,0,0.5);
-    color: white;
-    position: absolute;
     width: 100%;
-    height: 100%;
-    top: 0;
-    opacity: 0;
-    text-align: center;
+    height:276px ;
+    top: 0px;
+    position: absolute;
+    opacity:0;
 }
-.potfolio-text-icon{
-    padding-top:60px ;
+.text-icon{
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
     transform: translateY(-20px);
     transition: all 0.5s;
 }
-.potfolio-box:hover .potfolio-text{
-    opacity: 1;
-    transition: all 0.5s;
+.text-icon h4{
+    font-size: 20px;
+    padding: 10px;
 }
 .potfolio-icon{
     display: flex;
+    text-align: center;
     justify-content: center;
-    
+    padding-top: 20px;
 }
 .potfolio-icon a{
-    text-decoration: none;
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    background-color: white;
+    background: white;
     color: #0288D1;
-    margin: 10px;
+    margin: 5px;
     line-height: 40px;
+    text-decoration: none;
 }
 .potfolio-icon a:hover{
     color: white;
     background-color: #0288D1;
 }
-.potfolio-box:hover .potfolio-text-icon{
-    transform: translateY(0px);
-    transition: all 0.5;
+.potfolio-box:hover .potfolio-shadow{
+    opacity: 1;
+    transition: all 0.5s;
 }
 .potfolio-box:hover img{
     transform: scale(1.1);
     transition: all 0.5s;
 }
-
+.potfolio-box:hover .text-icon{
+    transform: translateY(0px);
+    transition: all 0.5s;
+}
 /* potfolio photos ends */
 
 
@@ -612,6 +624,7 @@ ul li{
 }
 .col .fqa-row{
     padding:10px;
+    height: 200px;
 }
 .fqa-row p{
     color: #455A64;
@@ -751,6 +764,7 @@ ul li{
 .form-button{
     text-align: center;
     letter-spacing: 1px;
+    padding-top: 30px;
 }
 .form-button button{
     background-color: #0288D1;
@@ -764,7 +778,7 @@ ul li{
 
 /* footer starts */
 .footer{
-    background-color: #546E7A;
+    background-color: #5C768D;
     margin-top: 50px;
 }
 .footer-overall{
@@ -781,7 +795,7 @@ ul li{
     /* border: #0288D1 1px solid; */
 }
 .footer-col{
-    width:20%;
+    width:25%;
     /* border: #0288D1 1px solid; */
 }
 .footer-col h3{
@@ -845,7 +859,7 @@ ul li{
 
 /* footer-bottom starts */
 .footer-bottom{
-    background-color:  #455A64;
+    background-color:  rgb(88,113,135);
     color: #fff;
     margin:0;
     padding: 20px;
