@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 1140px;
+    margin:0px auto;
+}
+/* social connect starts */
+.social-connect{
+    background-color: #00796B;
+    height: 40px;
+}
+.phone-email{
+    display: flex;
+}
+.phone-email a{
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.phone-email :nth-child(1):hover{
+    text-decoration: underline;
+}
+.social-media i{
+    color: #99CDC7;
+    margin: 5px;
+}
+.overall-social-connect{
+    display:flex;
+    justify-content: space-between;
+    line-height: 40px;
+}
+.social-media i:hover{
+    color: #fff;
+}
+
+/* social connect ends */
+
+/* banner section starts */
+.banner-nav{
+    background-color: #008374;
+}
+.heading h1{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.heading h1 span{
+    color: #F96F59;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* height: 710px; */
+}
+.nav-list li{
+    display: inline-block;
+    margin:10px;
+}
+.nav-list{
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: #99CDC7;
+    font-family: sans-serif;
+   
+}
+.nav-list li{
+    position: relative;
+}
+.nav-list li a::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #F96F59;
+    width: 0%;
+    left: 0;
+    top: 30px;
+}
+.nav-list li:hover a::after{
+     width: 100%;
+     transition: 0.5s;
+}
+.banner-overall{
+    width: 100%;
+}
+.banner{
+    background-color:#008374;
+   height: 625px;
+}
+.banner-content{
+    width: 50%;
+}
+.banner-content h1{
+    color: #fff;
+    font-size: 40px;
+}
+.banner-content p{
+    color: #99CDC7;
+    font-weight: bold;
+    font-size: 15px;
+}
+.banner-img{
+    width: 50%;
+    
+}
+/* banner section ends */
