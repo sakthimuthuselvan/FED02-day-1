@@ -7,6 +7,7 @@
 .container{
     width: 1140px;
     margin:0px auto;
+
 }
 /* social connect starts */
 .social-connect{
@@ -64,6 +65,7 @@
     font-family: sans-serif;
     font-weight: bold;
     display: flex;
+    
 }
 .nav-list li a{
     text-decoration: none;
@@ -76,26 +78,29 @@
 }
 .nav-list li a::after{
     content: "";
-    position: absolute;
-    height: 3px;
+    width: 100%;
+    height: 5px;
     background-color: #F96F59;
-    width: 0%;
-    left: 0;
-    top: 30px;
+    transform: scaleX(0);
+    transform-origin: left;
+    display: block;
 }
 .nav-list li:hover a::after{
-     width: 100%;
-     transition: 0.5s;
+     transform: scaleX(1);
+     transition: 0.3s;
 }
 .banner-overall{
     width: 100%;
+    display: flex;
 }
 .banner{
     background-color:#008374;
    height: 625px;
+   
 }
 .banner-content{
     width: 50%;
+    padding-top: 100px;
 }
 .banner-content h1{
     color: #fff;
@@ -104,10 +109,104 @@
 .banner-content p{
     color: #99CDC7;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 13px;
+    padding-top: 30px;
+}
+.banner-buttons button{
+    margin: 5px;
+}
+.banner-buttons{
+    display: flex;
+}
+.banner-buttons button{
+    width: 160px;
+    height: 50px;
+    padding: 5px 20px;
+    border-radius: 30px;
+    background-color:#1A9082;
+    margin-top: 30px;
+    color: white;
+    border-color:transparent;
+}
+.banner-buttons button:hover {
+    /* border-color: #99CDC7; */
+    transition: all 0.5s;
+    border-color:#99CDC7;
+}
+.banner-buttons span{
+    color: white;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+.banner-buttons span i{
+    color: #99CDC7;
+    font-size: 23px;
+    margin-right:8px;
+}
+.banner-buttons span:hover i{
+    color: white;
 }
 .banner-img{
     width: 50%;
-    
+    background-size: cover;
+    padding-top:50px ;
+
 }
+
 /* banner section ends */
+.model{
+    width: 100%;
+    height: 400px;
+    background-color: #F96F59;
+    text-align: center;
+}
+h2{
+    
+    font-size: 60px;
+    color: wheat;
+    padding: 50px;
+    display: inline-block;
+}
+h2::after{
+    content: '';
+    width: 100%;
+    height: 10px;
+    background-color: green;
+    display: block;
+    transform: scaleX(0);
+   transform-origin: left;
+   
+}
+h2:hover::after{
+    transform: scale(1);
+    /* transform-origin: left; */
+    transition: all 0.9s;
+    
+    
+}.photo{
+    width: 50%;
+    height: 500px;
+    background-color: #99CDC7;
+    position: relative;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+    /* background-size: cover; */
+}
+.photo::after{
+    content:"";
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.574);
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
