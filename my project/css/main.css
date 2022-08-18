@@ -327,3 +327,39 @@ h2:hover::after{
     transform: translate(-50%,-50%);
     color: white;
 } 
+.box-0{
+    width: 300px;
+    height: 200px;
+    background-color: burlywood;
+    margin-top:200px;
+}
+.sakthi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+.sakthi{
+    background-color: #03f1d6;
+    height: 700px;
+    margin-top:200px;
+}
+.box-0{
+    width: 300px;
+    height: 200px;
+    background-color: burlywood;
+    margin-top:200px;
+    animation: box;
+    animation-duration: 1s;
+    /* transform-origin: left; */
+}
+@keyframes box{
+    from{
+        transform: translateX(400px);
+        transform: rotateZ(200deg);
+    }
+    to{
+        transform: translateX(-400px);
+        transform: rotateZ(200deg);
+    }
+}
