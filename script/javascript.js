@@ -47,6 +47,8 @@
 
 //object 
 
+
+/*
 let person={
     nam:"sakthi",
     age:21,
@@ -59,3 +61,53 @@ let person={
 }
 console.log(person.brother.sibling1);
 console.log(person);
+
+// string
+
+let car="nano";
+let car1="toyata"
+let power="sakthi";
+let num=33;
+console.log(power+num)
+console.log(car+" "+car1);
+ 
+// boolen
+
+// let a=10;
+// let b=10;
+// let c=a==b;
+// console.log(c)
+
+
+// undefined
+let a;
+console.log(a)
+
+//null
+
+let color=null ;
+console.log(color);
+
+// boolean
+
+let c=(20>10);
+console.log(c);
+*/
+
+// loop concept
+// while loop
+
+//  var num=10;
+// while(num<20){
+//     console.log(num);
+//     num++;
+// }
+ 
+// for loop
+
+// for(i=5;i<=10;i++){
+//     console.log(i);
+// }
+
+//nexted if
+
