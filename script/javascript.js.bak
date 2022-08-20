@@ -139,6 +139,6 @@ if(a<b){
 	}
  }*/
  
- let a=11;
+ let a=10;
  let b=a%3;
  console.log(b);
