@@ -135,10 +135,37 @@ if(a<b){
  //lets starts for loops
  /*for(a=10;a<=20;a++){
 	if(a%5){
-		console.log(a);
-	}
+		console.log(a);	}
  }*/
  
- let a=11;
- let b=a%3;
- console.log(b);
+ 
+ //functions
+ 
+ /*
+ function addition(a,b){
+	 if((a !=="")&&(b !=="")){
+		 console.log(a%b)
+	 }else{
+		 console.log("no result")
+	 }
+ }
+ addition(3,20);
+ *
+
+
+let a;
+let b;
+{
+	a=10;
+	b=30;
+	
+	/*if(a!=10){
+		console.log("a is not equal too 50");
+	}else{
+		console.log("a is equal too 50")
+	}*/
+	
+	let name="true";
+	let address="false";
+	let aadhar=name||address;
+	console.log(aadhar);
