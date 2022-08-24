@@ -7,26 +7,6 @@
     <script src="./javascript.js"></script>
 	<link rel="stylesheet" href="style.css" type="text/css">
     <title>Document</title>
-	<style>
-	h1{
-		background-color:;
-		
-	}
-	form{
-		padding:100px;
-	}
-	.sakthi{
-		/* display: flex; */
-	}
-	p{
-		background-color: brown;
-		display: inline-block;
-	}
-	li{
-		background-color: cornflowerblue;
-		display: inline;
-	}
-	</style>
 </head>
 <body>
     <h1>java script</h1>
@@ -60,7 +40,7 @@
 	<li>sakthi</li>
 	<li>sakthi</li>
 </ul>
-<form >
+<form>
 		<h1>Radio</h1>
 		<input type="radio" value="gender">
 	    <label>male</label>
@@ -73,6 +53,25 @@
 </form>
 </body>
 <div>
-	
+	<style>
+	h1{
+		background-color:;
+		
+	}
+	form{
+		padding:100px;
+	}
+	.sakthi{
+		/* display: flex; */
+	}
+	p{
+		background-color: brown;
+		display: inline-block;
+	}
+	li{
+		background-color: cornflowerblue;
+		display: inline;
+	}
+	</style>
 	
 </html>

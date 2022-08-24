@@ -165,7 +165,38 @@ let b;
 		console.log("a is equal too 50")
 	}*/
 	
-	let name="true";
-	let address="false";
-	let aadhar=name&&address;
-	console.log(aadhar);
+	//let name="true";
+	//let address="false";
+	//let aadhar=name||address;
+	//console.log(aadhar);
+	
+
+	//let usercolor="red";
+	//let defalutcolor="yellow";
+	//let currentcolor=usercolor||defalutcolor;
+	//console.log("currentcolor :"+currentcolor);
+/*	let a= 10;
+	let b=20;
+	function name(){
+		let result = a+b;
+		console.log(result);	
+	}
+	name();
+*/
+
+/*function sak(s,a){
+	if(s>a){
+		return s-=a;
+	}else{
+		return s+=a;
+	}
+	
+}
+console.log(sak(10,20))
+*/
+
+
+let a=prompt("");
+
+
+
