@@ -9,7 +9,7 @@ aside{
 .id{
 	font-size:40px;
 }
-.box{
+.dx{
 	display:flex;
 	flex-wrap:wrap;
 }

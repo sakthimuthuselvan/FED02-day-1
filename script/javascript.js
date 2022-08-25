@@ -195,8 +195,26 @@ let b;
 console.log(sak(10,20))
 */
 
+/*
+var total=0;
+var avg;
+var marks[1,2,3,4,5,6,7,8,9,10];
+for(let i=0; i<marks.length; i++){
+	total=total+marks[i];
+}
+avg = total/marks.length;
+console.log(avg);
+*/
 
-let a=prompt("");
-console.log(a);
+var fruit=["banana","mango","orange"];
 
+//its add on end of the array statement
+
+fruit.push("grapes");
+
+//it adds on begin the array statement
+
+fruit.unshift("gova")
+console.log(fruit[2])
+//splice!
 
