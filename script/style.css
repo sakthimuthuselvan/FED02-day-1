@@ -16,3 +16,10 @@ aside{
 div{
 	border:solid 2px black;
 }
+img{
+    width:50%;
+    height:50%;	
+}
+h2{
+	font-size:15vmin;
+}

@@ -9,10 +9,14 @@ aside{
 .id{
 	font-size:40px;
 }
-.dx{
+.box{
 	display:flex;
 	flex-wrap:wrap;
 }
 div{
 	border:solid 2px black;
+}
+img{
+    width:50%;
+    height:50%;	
 }

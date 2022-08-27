@@ -175,6 +175,11 @@ let b;
 	//let defalutcolor="yellow";
 	//let currentcolor=usercolor||defalutcolor;
 	//console.log("currentcolor :"+currentcolor);
+
+
+
+				//function		 
+		 
 /*	let a= 10;
 	let b=20;
 	function name(){
@@ -205,7 +210,7 @@ for(let i=0; i<marks.length; i++){
 avg = total/marks.length;
 console.log(avg);
 */
-
+/*
 var fruit=["banana","mango","orange"];
 
 //its add on end of the array statement
@@ -215,6 +220,112 @@ fruit.push("grapes");
 //it adds on begin the array statement
 
 fruit.unshift("gova")
-console.log(fruit[2])
-//splice!
 
+//splice!
+*/
+
+/*
+var shoping =["amazon","flipkart","myntra"];
+for(i =0; i<shoping.length; i++){
+	if(shoping[i]=="meesho"){
+		console.log("you purchase here");
+	}else{
+		console.log("reload");
+	}
+}
+*/
+
+/*
+let a=parseInt(prompt('give your age',"enter your age"));
+
+if (a>=18){
+	console.log('your are eligible')
+	let b=prompt('give your gender');
+	if(b=='male'){
+		console.log('hi male')
+	}else if (b=='female'){
+		console.log('hi female');
+	}else{
+		console.log('you gender not available inearth')
+	}
+}else{
+	console.log('your are not eligible')
+}
+*/
+
+/*
+let a=parseInt(prompt("enter number","first number"));
+let b=parseInt(prompt("enter number","second number"))
+if(a<b){
+	console.log("b is greater than a",a);
+}else{
+	console.log("a greater than b",b);
+}
+*/
+
+
+/*
+let a =parseInt(prompt("passitive number","enter your num"));
+
+if(a>=0){
+	console.log("passitive")
+	
+}else {
+	console.log("negative")
+}
+*/
+
+/*let a=12;
+if(a>10){
+	console.log(a>10);
+}*/
+
+/*
+for(i=1;i<20;i++){
+	if(i%2){
+		console.log(i)
+	}
+}
+
+*//*
+function name(hello){
+	console.log(name)
+}
+hello("sakthi")
+*/
+
+
+/*function name(color){
+	console.log("hello world"+" "+color);
+}
+name("red");
+name("yellow")
+*/
+
+/*
+function name(firstname,lastname){
+	console.log(firstname+" "+lastname)
+}
+let fullname=name("sakthi","spark");
+let fullName=name("logesh","kumar");
+*/ 
+
+  
+/*function add(num1,num2){
+    return num1*num2;
+}
+
+console.log(add(23,22))
+*/
+
+let a=10;
+let b =20;
+let c =b;
+console.log(c);
+
+function array(mango){
+	for(i=0; i<mango.length; i++){
+		console.log(mango[i])
+	}
+}
+console.log(array("orange","mango"));
