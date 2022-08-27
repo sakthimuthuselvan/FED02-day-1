@@ -318,14 +318,36 @@ let fullName=name("logesh","kumar");
 console.log(add(23,22))
 */
 
-let a=10;
-let b =20;
-let c =b;
-console.log(c);
-
-function array(mango){
-	for(i=0; i<mango.length; i++){
-		console.log(mango[i])
+/*
+		//if condition
+		
+let age =parseInt(prompt("your age","enter your age"));
+if (age>=18){
+let	gender =prompt("gender","enter your gender");
+	if(gender=='male'){
+		console.log('work in anywere')
+	}else if(gender=='female'){
+		console.log('not work in anywere')
+	}else{
+		console.log('your gender is not available');
 	}
+	
+}else{
+	console.log('yournot eligible in work');
 }
-console.log(array("orange","mango"));
+
+*/
+
+
+let a=parseInt(prompt("number","enter num1"))
+let b=parseInt(prompt("number","enter num2"))
+let c=parseInt(prompt("number","enter num3"))
+if((a<b)&&(a<c)&&(b<c)){
+	console.log(a,b,c);
+}else if((a>b)&&(a>c)&&(b>c)){
+	console.log(c,b,a)
+}else if((a>b)&&(b<C)&&(a<c)){
+	console.log(b,a,c)
+}
+	
+
