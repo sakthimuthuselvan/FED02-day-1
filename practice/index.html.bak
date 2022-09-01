@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+		<link rel="stylesheet" href="New folder\icofont.css">
+    <link rel="stylesheet" href="https://www.icofont.com/icons">
+	<link rel="stylesheet" href="main.css">
+	
+</head>
+<body>
+<div class="overall">
+	<div class="box1">
+		<h1>Neque office dolore mariores et exercitationem quae seda lidera pat claero</h1>
+		<div class="options">
+			<ul>
+			<li class="first">SAEPE FUGA</li>
+			<li>VOLUPUATES</li>
+			<li>CORRUPTI</li>
+			</ul>
+		</div>
+		<p>A paragraph has three major parts- 1. Topic sentence 2. Supporting sentences 3.
+		Concluding sentence 1. Topic Sentence A topic sentence is a precise statement that reflects
+		the main idea of the paragraph. It should be carefully written as it will show the reader
+		what you are going to talk about. Words chosen for this should not b…</p>
+		<div class=heading-1>
+			<i class="icofont-tick-mark"></i><h2>A paragraph has three major parts</h2>
+			<p>A paragraph has three major parts- 1. Topic sentence 2. Supporting sentences 3.
+		Concluding sentence 1. Topic Sentence A topic sentence</p>
+		</div>
+		<div class=heading-2>
+			<i class="icofont-tick-mark"></i><h2>be carefully written as it will show the reader</h2>
+			<p>A paragraph has three major parts- 1. Topic sentence 2. Supporting sentences 3.
+		Concluding sentence 1. Topic Sentence A topic sentence is a precise statement that reflects
+		the main idea of the paragraph. It should be carefully written as it will show the reader
+		what you are going to talk about. Words chosen for this should not b…</p>
+		</div>
+	</div>	
+	<div class="box2">
+		<img src="img\features-2.png">
+	</div>
+</div>
+
+
+
+
+
+</div>
+</body>
