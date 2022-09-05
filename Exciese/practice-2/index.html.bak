@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+	<section>
+		<div class="container">
+			<div class="overall">
+				<div class="box1">
+					<img src="img\skills.png">
+				</div>
+				<div class="box2">
+					<h1>An article is a word that is used to indicate that a noun is a noun without describing</h1>
+					<em>An article is a word that is used to indicate that a noun is a noun without describing it. For example, in the sentence Nick bought a dog, the acts.</em>	
+						<div class="detail-box">
+							<div class="html">
+								<div class="content">
+									<span>HTML</span>
+									<p>100%</p>
+								</div>
+								<div class="line"></div>
+							</div>
+							<div class="css">
+								<div class="content">
+									<span>CSS</span>
+									<p>90%</p>
+								</div>
+									<div class="css-line">
+										<div class="line1"></div>
+										<div class="line2"></div>
+									</div>
+								
+							</div>
+							<div class="javascript">
+								<div class="content">
+									<span>JAVASCRIPT</span>
+									<p>75%</p>
+								</div>
+									<div class="javascript-line">
+										<div class="line1"></div>
+										<div class="line2"></div>
+									</div>
+							</div>
+							<div class="photoshop"></div>
+						</div>
+				</div>
+			</div>	
+		</div>
+	
+	</section>
+</body>
+</html>
