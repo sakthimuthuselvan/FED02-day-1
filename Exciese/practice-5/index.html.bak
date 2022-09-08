@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/icofont.css">
+    <link rel="stylesheet" href="https://icofont.com/">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+		<div class="container">
+			<div class="overall">
+				<div class="box1">
+					<div class="icon"><i class="icofont-eye"></i></div>
+					<h2>Lorem Ipsum</h2>
+					<p>Examples are better than words. Examples are often easier to understand than </p>
+				</div>
+				<div class="box2">
+					<div class="icon"><i class="icofont-ebook"></i></div>
+					<h2>Lorem Ipsum</h2>
+					<p>Examples are better than words. Examples are often easier to understand than </p>
+				</div>
+				
+				<div class="box3">
+					<div class="icon"><i class="icofont-diskette"></i></div>
+					<h2>Lorem Ipsum</h2>
+					<p>Examples are better than words. Examples are often easier to understand than </p>
+				</div>
+				
+				<div class="box4">
+					<div class="icon"><i class="icofont-ebook"></i></div>
+					<h2>Lorem Ipsum</h2>
+					<p>Examples are better than words. Examples are often easier to understand than </p>
+				</div>
+				</div>
+			</div>
+		
+	</section>
+	<div class="container">
+	<div class="footer">
+		<h1>join our newsteler</h1>
+		<p>Can't remember all 140 HTML color names? We've got you covered, check</p>
+		<div class="inputs">
+			<input type="text" class="input">
+		<button>subcribe</button>
+		</div>
+	</div>
+	</div>
+</body>
+</html>
