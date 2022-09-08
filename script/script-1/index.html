@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body{
+			text-align: center;
+			padding-top: 50px;
+		}
+	</style>
+	
+	<title>Document</title>
+</head>
+<body>
+	<h1>javascript</h1>
+	
+<input type="text" id="input-food" placeholder="studentname">
+
+<button id="input-btn">click here</button>
+<div id="responce"></div>
+
+	<script>
+		let inputFood = document.getElementById("input-food");
+ let inputBtn = document.getElementById("input-btn");
+ let responce = document.getElementById("responce");
+
+  let ul=document.createElement("ul");
+let a=function(){
+   if(inputFood.value!==""){
+    let p=document.createElement("p");
+	let li=document.createElement("li");
+	p.innerText="Hi, Hello"
+	li.innerText=inputFood.value;
+	ul.appendChild(p);
+	ul.appendChild(li);
+	
+	responce.appendChild(ul);
+	inputFood.value=""
+	
+	
+   }
+}
+
+ inputBtn.addEventListener("click",function() {
+	   a();
+	});
+	</script>
+</body>
+</html>
+	
+
+
+
