@@ -10,6 +10,10 @@
    <link rel="stylesheet" href="css\main.css">
    
     <title>Document</title>
+	<script>
+
+		console.log(Math.randam())
+	</script>
 </head>
 
 <body>
@@ -45,7 +49,7 @@
 		<p class="para">A great way to tackle this situation is by choosing to paraphare brilliant at paraphrasing articles and content for you, changing the words, sentence structure and composition of each sentence, while keeping the overall meaning intact. It is also a great way to summarize your ar</p>
 		</div>
 		<div class="btn"></div>
-		<button>make a man appointeted</button>
+		<button><b>make a man appointeted</b></button>
 	</section>
 </body>
 </html>

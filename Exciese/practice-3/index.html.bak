@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://icofont.com/icons">
+	  <link rel="stylesheet" href="./css/icofont.css">
+  <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+<section class="footer">
+		<div class="container">
+		<div class="overall">
+			<div class="box1">
+				<h1>bikin</h1>
+				<p>257,adam street<br>
+				   anna nagar<br>
+				   chennai<br>
+				</p>
+				
+				<div class="contact">
+					<p><span>Phone:</span>67191390</p>
+					<p><span>Email:</span>fabevy@gmail.com</p>
+				</div>
+			</div>
+			<div class="box2">
+				<h3>Usefull links</h3>
+				<div class="box2-list">
+					<ul>
+						<div><i class="icofont-rounded-right"></i><li>Home</li></div>
+						<div><i class="icofont-rounded-right"></i><li>about us</li></div>
+						<div><i class="icofont-rounded-right"></i><li>services</li></div>
+						<div><i class="icofont-rounded-right"></i><li>terms</li></div>
+						<div><i class="icofont-rounded-right"></i><li>privacy</li></div>
+					</ul>
+				</div>
+			</div>
+			<div class="box3">
+				
+				<div class="box3-list">
+				<h3>our services</h3>
+					<ul>
+						<div><i class="icofont-rounded-right"></i><li>Home</li></div>
+						<div><i class="icofont-rounded-right"></i><li>about us</li></div>
+						<div><i class="icofont-rounded-right"></i><li>services</li></div>
+						<div><i class="icofont-rounded-right"></i><li>terms</li></div>
+						<div><i class="icofont-rounded-right"></i><li>privacy</li></div>
+					</ul>
+				</div>
+			</div>
+			<div class="box4">
+				<h3>Jion our newsetler</h3>
+				<p>Google's Material design scheme and the classic web safe color palette, all with Hex color codes.</p>
+				<div class="input-box">
+					<input type="text">
+					<button>subscribe</button>
+			</div>
+			</div>
+		</div>
+	</div>
+</section>
+<div class="container">
+<div class="foot">
+	<div class="sec-2">
+	<p class="para"> the classic web safe color <b>palette</b><br>all with<span class="span"> Hex color codes</span></P>
+	<div class=icon>
+		<div><i class="icofont-facebook"></i></div>
+		<div><i class="icofont-facebook"></i></div>
+		<div><i class="icofont-facebook"></i></div>
+		<div><i class="icofont-facebook"></i></div>
+		<div><i class="icofont-facebook"></i></div>
+	</div>
+	</div>
+</div>
+
+</div>
+</body>
+</html>

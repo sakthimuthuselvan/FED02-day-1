@@ -21,6 +21,7 @@
 }
 .box2{
 	width:50%;
+@import(style.css)
 }
 .box2 h1{
 	color: #1B03A2;

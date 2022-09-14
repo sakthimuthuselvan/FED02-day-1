@@ -25,6 +25,7 @@
 .box2 h1{
 	color: #1B03A2;
 	padding-bottom:10px;
+	font-size: 25px;
 }
 .content{
 	display:flex;
